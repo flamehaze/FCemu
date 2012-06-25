@@ -1,0 +1,11 @@
+TEST Howto~
+--| Command to run test
+    cd /patch/to/project/test
+    make
+    make run
+
+--| Result
+You could see "Successfully" or "Error" from output. "Error" messages always attach the line number where the issue raises.
+
+--| Add test
+Test case can be added just like "t1.c". Both modifying "t1.c" and adding a new test file (need to modify Makefile) are workable.
