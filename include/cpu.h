@@ -25,6 +25,7 @@ struct _register_file {
 	u8 MSR;
 };
 typedef struct _register_file register_file;
+extern register_file cpu_reg;
 
 
 #define REG_GET_A(x)	((x).A)
